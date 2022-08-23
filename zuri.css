@@ -1,0 +1,133 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.red {
+  color: red;
+}
+/* ===========================for zuri team=================================== */
+.team {
+  /* align-items: center; */
+  text-align: center;
+  /* justify-content: center; */
+  padding: 2em;
+  background-color: rgb(253, 224, 250);
+}
+#learn {
+  font-size: x-large;
+  padding-bottom: 1em;
+}
+#zuri {
+  padding-bottom: 3em;
+}
+#unlock {
+  padding-bottom: 3em;
+  margin: 0em 8em 0em 8em;
+}
+.button2 {
+  border: red solid 1.5px;
+  color:  rgb(0, 0, 0);
+  padding: 0.7em;
+  background-color: rgb(255, 255, 255);
+  margin-left: 15px;
+  margin-bottom: 5em;
+}
+
+.button1 {
+  border: red solid 1.5px;
+  color: rgb(0, 0, 0) ;
+  padding: 0.7em;
+  background-color: rgb(252, 252, 252);
+}
+.button1:hover{
+  color: rgb(252, 252, 252) ;
+  background-color: rgb(248, 8, 8);
+}
+.button2:hover{
+  color: rgb(252, 252, 252) ;
+  background-color: rgb(248, 8, 8);
+}
+/*================================= second for  by zuri team====================================== */
+
+#by{
+    color: red;
+    font-size: x-small;
+}
+.byz{
+    text-align: center;
+    margin: 4em;
+    /* background-color: rgb(252, 252, 252); */
+    line-height: 1.5em;
+}
+
+/*=========================== for zuri training, talent internship=============================== */
+
+.trainz{
+  background-color:rgb(253, 224, 250) ;
+  padding: 0.1em 2em 2em 2em;
+  margin-top: 3em;
+  
+}
+.training{
+  font-weight: bold;
+  font-size: larger;
+  background-color: #fff;
+  width: 150px;
+  height: 50px;
+  text-align: center;
+  padding-top: 2em;
+  
+  margin: 2em 0em 2em 1.5em ;
+  /* margin-top: 6em; */
+}
+.iwant{
+  /* padding-top: 2em; */
+  color: red;
+  margin-left: 2em;
+}
+.we{
+  margin-left: 2em;
+}
+ /*============================= for zuri team =====================*/
+.teamzu{
+  display: flex;
+
+  padding: 2.5em 2em 0.1em 2em; 
+  margin: 3em 0em 4em 0em;
+}
+.zut{
+  text-align: center;
+  margin:1em 0em 2em 0em;
+  font-weight: bolder;
+}
+#zu{
+  font-size: xx-large ;
+  
+  padding-right: 4em;
+}
+.tea{
+  
+  margin-right: 12em;
+}
+@media only screen and (max-width: 600px){
+  .teamzu{
+    flex-direction:column;
+    text-align: center;
+    margin-top: 7em;
+
+  }
+  #big{
+    margin-top: 2em;
+    font-size: x-large;
+  }
+}
+
+
+
+
+
+
+
+
+
+

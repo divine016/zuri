@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration</title>
+<style>
+    .control{
+            
+            font-size: 20PX;
+            display: inline;
+            flex-direction: column;
+            /* margin-left: 50px; */
+            background-color: hsla(300, 95%, 59%, 0.863);
+            padding: 10px;
+            border-radius: 75px;
+            margin-left: 15px;
+            color: black;
+            text-decoration: none;
+
+            
+        }
+        .control:hover{
+            background-color: hsla(0, 0%, 0%, 0.959);
+            color: hsla(180, 20%, 99%, 0.959);
+        }
+    nav{
+            float: right;
+            margin-top: 5px;
+            padding-inline: 2px;
+            padding-top: 20px;
+            /* clear: right; */
+        }
+        .main{
+           
+             margin-left: 500px;
+            /* padding-top: 20px; */
+            padding-left: 60px;
+            font-size: large;
+            
+            /* border: rgb(255, 58, 255) solid 4px ;
+            border-radius: 15px; */
+            
+            justify-content: space-between;
+        }
+        input{
+            height: 30px;
+            width: 300px;
+            border-radius: 15px;
+            box-sizing: border-box;
+            /* padding-top: 50px;
+            margin-top: 20px; */
+            border-color: rgb(124, 25, 86);
+        }
+
+</style>
+</head>
+<body>
+    <nav>
+        <a href="home.html" class="control" style=" box-shadow: rgb(179, 179, 179) 1px 1px 3px; text-decoration: none;" >HOME</a> 
+        <a href="aboutme.html" class="control" style=" box-shadow: rgb(179, 179, 179) 1px 1px 3px; text-decoration: none;" >ABOUT ME</a> 
+        <a href="REGISTRATION.HTML" class="control" style=" box-shadow: rgb(179, 179, 179) 1px 1px 3px; text-decoration: none;" >REGISTER</a> 
+        <a href="login.html" class="control" style=" box-shadow: rgb(179, 179, 179) 1px 1px 3px; text-decoration: none;" >LOG IN</a> 
+        <a href="contactme.html" class="control" style=" box-shadow: rgb(179, 179, 179) 1px 1px 3px; text-decoration: none;" >CONTACT ME</a> 
+ </nav>
+        <div class="main">
+        <form action="">
+                <table>
+                    <tr>
+                        <td><label for="user name">USER NAME</label></td>
+                        <td><input type="text"></td>
+                    </tr> <br> <br>
+                    <tr>
+                        <td><label for="first name"> FIRST NAME</label></td>
+                        <td><input type="text" required></td> 
+                    </tr> <br> <br>
+                    <tr>
+                        <td><label for="last name">LAST NAME</label></td>
+                    <td><input type="text" required></td> 
+                    </tr> <br> <br>
+                    <tr>
+                        <td><label for="phone"> PHONE NUMBER</label></td>
+                        <td><input type="number" id="phone"  required></td>
+                        </tr> <br> <br>
+                    <tr>
+                        <td> <label for="country">COUNTRY</label></td>
+                        <td> <input type="text"></td>
+                    </tr> <br> <br>
+                    <tr>
+                        <td><label for="state">STATE/PROVINCE</label></td>
+                        <td><input type="text"></td>
+                    </tr> <br> <br>
+                    <tr>
+                        <td><label for="password">PASSWORD</label></td>
+                        <td><input type="password"></td>
+                    </tr> <br> <br>
+                    <tr >
+                        
+                    <td><label for="confirm password"> CONFIRM PASSWORD</label></td> 
+                        <td><input type="password"></td>
+                    </tr> 
+                </table>
+        </form>
+        </div>   
+            <br> <br>
+            <button >  REGISTER</button> <br> <br>
+            <small>Already have an account? <a href="Login.html">login</a></small>
+</body>
+</html>

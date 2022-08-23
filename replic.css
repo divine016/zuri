@@ -1,0 +1,93 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgba(205, 200, 201, 0.851);
+  /* background-image: url(favicon-32x32.png);
+    background-repeat: no-repeat;
+    background-size: contain;  */
+}
+
+main {
+  background-color: rgba(227, 99, 121, 0.851);
+  background-image: url(bg-intro-desktop.png);
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  display: flex;
+  margin: auto;
+  min-width: 150vh;
+  margin-top: 3em;
+}
+.noimage {
+  /* width: 100%; */
+  /* background-color: blue; */
+  color: white;
+  padding: 2em;
+  margin: 2em;
+}
+#top-content {
+  font-size: small;
+  text-align: center;
+  color: white;
+  border-radius: 15px;
+  margin-bottom: 2em;
+  margin-right: 2em;
+  margin-top: 2em;
+  padding: 10px;
+  background-color: hsl(248, 32%, 49%);
+}
+#money {
+  color: #afafc0;
+}
+#learn {
+  font-size: 40px;
+}
+.text {
+  font-size: small;
+  color: #e6e6f7;
+}
+/* .boxx{
+    width: 50%;
+} */
+#fname {
+  width: 350px;
+  height: 35px;
+  border-radius: 5px;
+  padding-left: 30px;
+  border-style: groove;
+  border-color: #e6e6f7;
+}
+.box {
+  box-shadow: #0000;
+  background-color: white;
+  padding: 2em;
+  border-radius: 5px;
+}
+.box button {
+  color: #ffffff;
+  background-color: hsl(154, 59%, 51%);
+}
+#small {
+  text-align: center;
+  font-size: x-small;
+  color: #afafc0;
+}
+#terms {
+  color: hsl(0, 100%, 74%);
+  font-weight: bold;
+}
+/* .col-1[width: 8.33%]
+.col-2[width: 16.66%]
+.col-3[width: 25%]
+.col-4[width: 33.33%]
+.col-5[width: 41.66%]
+.col-6[width: 50%] */
+
+@media only screen and (max-width: 600px) {
+  main {
+    flex-direction: column;
+  }
+}
